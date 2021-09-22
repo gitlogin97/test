@@ -1,0 +1,14 @@
+Install Laravel on Ubuntu Using Composer
+
+With Composer installed, now we can install Laravel. To do this, run the following command:
+
+composer create-project --prefer-dist laravel/laravel [project_name]
+
+
+Using Laravel for Local Development
+
+To develop applications locally, we can use PHP serve and specify the host and port of our server. To do this execute the commands following commands, and replace [IP] with your server IP, and [port] with the port you wish to use.
+
+cd example
+
+php artisan serve --host=[IP] --port=[port]
